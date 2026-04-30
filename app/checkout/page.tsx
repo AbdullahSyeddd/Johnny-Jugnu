@@ -140,7 +140,7 @@ export default function CheckoutPage() {
                 value={form.fullName}
                 onChange={handleChange}
                 className="w-full bg-[var(--color-background)] border-2 border-black/10 dark:border-white/10 rounded-xl p-3 focus:border-[var(--color-brand-yellow)] outline-none transition"
-                placeholder="Abdullah Syed"
+                placeholder=" "
               />
             </div>
 
@@ -153,7 +153,7 @@ export default function CheckoutPage() {
                 value={form.phone}
                 onChange={handleChange}
                 className="w-full bg-[var(--color-background)] border-2 border-black/10 dark:border-white/10 rounded-xl p-3 focus:border-[var(--color-brand-yellow)] outline-none transition"
-                placeholder="0326-XXXXXXX"
+                placeholder="0300-XXXXXXX"
               />
             </div>
 
